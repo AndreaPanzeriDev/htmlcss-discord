@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #3161e0;
+    height: 80px;
+    align-items: center;
+    font-size: clamp(16px,2vw,20px);
+
+}
+
+.bottoni{
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.container{
+    padding: 120px 40px 120px 40px;
+    color: white;
+    background-image: url(../img/jumbo.png);
+}
+
+
+.bho{
+    width: 65%;
+    text-align: center;
+    margin: auto;
+}
+
+.bho p{
+    margin-top: 40px;
+    font-size: clamp(16px,2vw,20px);
+}
+
+
+
+.pulsante{
+    border-radius: 40px;
+    padding: 7px 16px;
+    border: none;
+}
+
+.bianco{
+    background-color: white;
+    color: black;
+}
+
+.nero{
+    background-color: black;
+    color: white;
+}
+
+.viola{
+    background-color: #8ea1e1;
+    color: white;
+}
+
+.bho button{
+    font-size: 24px;
+    margin: 24px 24px 0 0;
+}
+
+.centro{
+    align-items: center;
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+.righe{
+    flex-direction: row;
+
+}
+
+
+
+.background{
+    height: auto;
+    width: 100%;
+    padding: 120px 40px 40px 40px;
+}
+
+
+.grigio{
+    background-color: lightgray;
+}
+
+.nero{
+    background-color: #23272a;
+    
+    
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.immagine{
+    flex-basis: 30%;
+}
+
+.testo{
+    align-self: center;
+    font-family: inherit;
+    width: 25%;
+}
+
+
+footer{
+    margin-top: 80px;
+}
+
+.foot{
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+
+.between{
+    justify-content: space-between ;
+}
+.separatore{
+    width: 85%;
+    height: 1px;
+    margin: 32px auto 32px auto;
+    background-color: #3161e0;
+}
+
+#stelline{
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+}
+
+
+
+
+.titolo{
+    color: #3161e0;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.spazio{
+    padding: 5px 5px;
+}
+
+.allineamento{
+    align-items: stretch;
+}
+
+.ita{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#bandiera{
+    max-width: 25px;
+    margin: 4px;
+}
+
+
