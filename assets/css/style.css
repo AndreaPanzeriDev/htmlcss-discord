@@ -77,13 +77,10 @@
 
 .flex{
     display: flex;
+    margin: auto;
+    width: 65%;
 }
 
-
-.righe{
-    flex-direction: row;
-
-}
 
 
 
@@ -108,13 +105,13 @@
 }
 
 .immagine{
-    flex-basis: 30%;
+    flex-basis: 50%;
 }
 
 .testo{
     align-self: center;
     font-family: inherit;
-    width: 25%;
+    flex-basis: 30%;
 }
 
 
